@@ -10,17 +10,17 @@
    =================================================== */
 const galleryImages = [
   {
-    src: 'assets/DEL_KAPE_DESIGN__2__4687ddc2.png',
+    src: 'DEL_KAPE_DESIGN__2__4687ddc2.png',
     alt: 'Signature Del Kape Iced Specialty Drinks on Bamboo Bilao',
     title: 'Our Signature Heritage Drinks'
   },
   {
-    src: 'assets/DEL_KAPE_DESIGN__1__eaf2117b.png',
+    src: 'DEL_KAPE_DESIGN__1__eaf2117b.png',
     alt: 'Traditional Cloth Filter Pour-Over Coffee Brewing',
     title: 'Traditional Cloth Filter (Salaan) Brew'
   },
   {
-    src: 'assets/DEL_KAPE_DESIGN_fc097cf9.png',
+    src: 'DEL_KAPE_DESIGN_fc097cf9.png',
     alt: 'Filipino Kakanin Rice Delicacies in Handwoven Bilao',
     title: 'Authentic Filipino Delicacies & Kakanin'
   }
@@ -110,7 +110,7 @@ function displayActiveTimer() {
   const timerBox = document.getElementById('timer-box');
   const expiredBox = document.getElementById('expired-box');
   if (timerBox && expiredBox) {
-    timerBox.style.display = 'block';
+    timerBox.style.display = 'grid';
     expiredBox.style.display = 'none';
   }
 }
